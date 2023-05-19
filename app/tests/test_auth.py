@@ -14,3 +14,6 @@ async def test_register(ac: AsyncClient):
     })
 
     assert response.status_code == 201
+
+
+#Тест на аутентификацию в процессе, артем разрешил сделать пр сейчас
