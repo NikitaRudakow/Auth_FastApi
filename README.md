@@ -17,4 +17,8 @@ docker-compose exec app bash
 alembic upgrade head
 ```
 
+run tests
 
+```sh
+docker compose -f docker-compose.test.yml run --rm app pytest -s
+```
